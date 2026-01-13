@@ -1,0 +1,183 @@
+//FUNCTION.......
+
+/*function Apple(){
+    //document.write("helllo we are testers" +"<br>") to next line
+    console.log("we are testers");
+}
+Apple();*/
+
+
+
+
+//SCOPE....
+
+
+/*var Apple ="red";
+var guava = "green";
+var banana =" yellow";
+
+function fruit(){
+    document.write(Apple +"<br>");
+    document.write(guava +"<br>");
+    document.write(banana +"<br>");
+
+}
+fruit();*/
+
+
+/*var Apple ="red";
+var guava = "green";
+var banana =" yellow";
+
+function fruit(){
+
+}
+    document.write(Apple +"<br>");
+    document.write(guava +"<br>");
+    document.write(banana +"<br>");
+
+fruit();*/
+
+
+
+
+
+// push()=("add one or more element in the end of the array")
+// pop()=("remove the last element from an array")
+//shift()=("remove the first element from the array ")
+
+/*let sports= ["cricket","football"];
+//sports.push("Tennis");
+//sports.pop("footbaal");
+sports.shift();
+console.log(sports + "<br>");
+console.log(sports.length + "<br>");*/
+
+
+
+
+// CONCAT...... 
+
+/*let fruits = [" apple", "banana", "orange"]
+let veg =["potato", "tomato","oninon"]
+let result = fruits.concat(veg)
+console.log(result);*/
+
+
+
+
+// JOIN --- concat all the element in single string..
+
+/*let fruits = [" apple", "banana", "orange"]
+let result = fruits.join(" ")
+console.log(result);*/
+
+
+
+
+// SLICE ---- method in JavaScript is used to extract a section of an array and return it as a new array. 
+
+/*let numbers =[0,1,2,3,4,5,6,7,8,9]
+let no =numbers.slice(0,6)
+console.log(no)*/
+
+
+
+
+//SPLICE ---- The splice() method in JavaScript is a powerful tool for manipulating arrays. It allows you to add, remove, or replace elements within an array, directly modifying the original array.
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits); */
+
+
+
+
+// indexof()----("return the first index at which a given elemnt can be found in array")
+
+
+// for each()--- ("execute a provided function once for each array")
+
+/*let student =["amit","ajay","anish","shashi","rohit"]
+student.forEach(function(item,index)
+{
+    console.log(index + 1 + "," + item +"<br>")
+})*/
+
+
+
+
+
+//STRING methods  [("") splitting words]
+
+/*var sample ="wea are testing team";
+console.log(sample.split(" "))
+
+// TRIM....... method remove the white space 
+
+let s1 = 'Learn JavaScript';
+let s2 = s1.trim();
+
+console.log(s2);
+
+
+
+
+// UPPER AND LOWER CASE.......
+
+let s = 'JavaScript';
+let uCase = s.toUpperCase();
+let lCase = s.toLowerCase();
+
+console.log(uCase);
+console.log(lCase);*/
+
+
+
+
+//LOOP..........
+
+// for loop
+
+/*const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let len = cars.length;
+
+let text = "";
+for (let i = 0; i < len; i++) {
+  text += cars[i];
+};
+console.log(text)
+
+
+
+
+//  while loop
+
+/*const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let i = 0;
+let text = "";
+
+while (cars[i]) {
+  text += cars[i];
+  i++;
+}
+
+
+
+
+// do while 
+
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);*/
+
+
+
+
+
+
+
+
+
